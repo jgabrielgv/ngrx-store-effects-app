@@ -77,7 +77,7 @@ export class RemovePizzaFail implements Action {
 
 export class RemovePizzaSuccess implements Action {
   readonly type = REMOVE_PIZZA_SUCCESS;
-  constructor(public payload: Pizza) {}
+  constructor(public payload: Pizza) { }
 }
 
 export type PizzasAction =
